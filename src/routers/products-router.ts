@@ -5,7 +5,7 @@ export const productsRouter = Router({})
 
 productsRouter.get('/', async ( req: Request, res: Response) => {
   const products = await productsRepository.getProducts()
-  res.send('hello')
+  res.send('hello!!')
 })
 
 productsRouter.post('/', async (req: Request, res: Response) => {
